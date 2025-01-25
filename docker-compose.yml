@@ -1,0 +1,9 @@
+version: '1'
+services:
+  memebot:
+    image: memebot:latest
+    container_name: memebot
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
